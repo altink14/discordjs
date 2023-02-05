@@ -1,0 +1,47 @@
+{
+  "name": "misaki",
+  "version": "2.0.0",
+  "description": "Misaki is all of the fun and entertainment commands taken from GuideBot aka York-Dev and bundled into this tsundere themed bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "lint": "eslint --fix .",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotAWeebDev/Misaki.git"
+  },
+  "author": "York (http://anidiots.guide)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NotAWeebDev/Misaki/issues"
+  },
+  "homepage": "https://github.com/NotAWeebDev/Misaki#readme",
+  "dependencies": {
+    "discord.js": "github:discordjs/discord.js#85738b68849b6092b8f43a044937dc8a508b7536",
+    "dotenv": "^5.0.1",
+    "enmap": "^2.7.2",
+    "enmap-level": "^2.1.0",
+    "fast-html-parser": "^1.0.1",
+    "fortnite": "^3.0.1",
+    "fs-nextra": "^0.3.7",
+    "hot-shots": "^5.9.1",
+    "html-entities": "^1.2.1",
+    "kitsu": "^5.2.2",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "node-fetch": "^2.2.0",
+    "overwatch-js": "^1.8.0",
+    "pornsearch": "^2.4.2",
+    "slot-machine": "^2.1.0",
+    "snekfetch": "^3.6.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
